@@ -20,9 +20,3 @@ bool run(string cmd,bool stealthMode = true){
 		return false;
 	}
 }
-
-
-int main(){
-	run("echo stealth mode on");
-	run("echo stealth mode off",false);
-}
