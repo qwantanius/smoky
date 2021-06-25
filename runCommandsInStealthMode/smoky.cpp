@@ -1,13 +1,12 @@
 #include <iostream>
 #include <string>
+#include "smoky.h"
 
 using namespace std;
 
+const std::string MUTE_OUTPUT = "> /dev/null 2>&1";
 
-// BASE CONSTANTS
-const string MUTE_OUTPUT = "> /dev/null 2>&1";
-
-bool run(string cmd,bool stealthMode = true){
+bool run(std::string cmd,bool stealthMode = true){
 	try {
 		string resCommand;
 		resCommand = cmd + MUTE_OUTPUT;
@@ -20,3 +19,4 @@ bool run(string cmd,bool stealthMode = true){
 		return false;
 	}
 }
+
