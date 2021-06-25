@@ -1,14 +1,11 @@
-#include <iostream>
 #include <string>
-#include "smoky.h"
-
-using namespace std;
+#include "runCommandsInStealthMode.h"
 
 const std::string MUTE_OUTPUT = "> /dev/null 2>&1";
 
 bool run(std::string cmd,bool stealthMode = true){
 	try {
-		string resCommand;
+		std::string resCommand;
 		resCommand = cmd + MUTE_OUTPUT;
 		if(!stealthMode){
 			resCommand = cmd;

@@ -1,11 +1,9 @@
-update 0.2.1
-|__0 mega branches
-||__2 small changes
-|||__1 branch
-||Added run command which can run stealthy any linux command
-||instead of sudo, but, sudo commands can be bypassed by
-||sudolog function which will be able in 3rd branch - sudolog
-update 0.3.1_____________________________________IN PROGRESS
-||Have to add cli input enable/disable option   |
-||cli input arguments dont have to be musthave! |
+update 0.2.1-------------------------------------------------
+|Added run command which can run stealthy any linux command
+|instead of sudo, but, sudo commands can be bypassed by
+|sudolog function which will be able in 3rd branch - sudolog
+update 0.3.1-------------------------------------------------
+|Change smoky src location and add build file which will help
+|to figure out - how to build smoky tool
+update 0.4.1-------------------------------------------------
 

@@ -1,4 +1,4 @@
-#include "runCommandsInStealthMode/smoky.h"
+#include "runCommandsInStealthMode/runCommandsInStealthMode.h"
 
 int main(){
 	run("touch hello.this.is.smoky.demo",true);
