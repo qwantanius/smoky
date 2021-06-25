@@ -4,6 +4,7 @@
 using namespace std;
 
 
+// BASE CONSTANTS
 const string MUTE_OUTPUT = "> /dev/null 2>&1";
 
 bool run(string cmd,bool stealthMode = true){
@@ -18,9 +19,4 @@ bool run(string cmd,bool stealthMode = true){
 	} catch (...){
 		return false;
 	}
-}
-
-
-int main(){
-	run("sudo apt-get install asdf");
 }
