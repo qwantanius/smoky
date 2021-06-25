@@ -6,4 +6,5 @@ update 0.3.1-------------------------------------------------
 |Change smoky src location and add build file which will help
 |to figure out - how to build smoky tool
 update 0.4.1-------------------------------------------------
+|Add cli input,add docs to some functions,add clear code
 
