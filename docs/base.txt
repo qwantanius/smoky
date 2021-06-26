@@ -1,0 +1,27 @@
+
+   ssssssssssssssssssssssssssssssss    
+  S                       
+  S                       K k              
+   sssssss   mm mm   ooo  K k              
+          s m  m  m O   O KKk   y  y       
+          s m     m O   O K  k  y  y
+   sSSSSSS  m     m  ooo  K  K   YYY
+                                   Y
+                                   Y
+    yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+
+[1] WHAT THIS PROJECT IS
+Hello. This is Open Source C++ lib. for linux sys-admin|devops development.
+As well, now (C)Smoky exists only on linux, but as soon, as developer can,
+(C)Smoky will be available on other Operating Systems. To use (C)Smoky, 
+you need only linux and g++ compiler. You can download source code and 
+build it by few commands or use builded bins in a bin directory
+
+[2] HOW TO BUILD
+You can use already prepared script: 'build' which could be run with next 
+command: 'sh ./build'. Or you would be fine with customizing your build.
+I create each module in each pair: cpp:h files, so You may choose -
+what you need in your build
+
+

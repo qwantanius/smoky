@@ -1,8 +1,9 @@
+#include <string>
+#include <iostream>
 #include "runCommandsFromCLIInStealthMode.h"
 #include "runCommandsInStealthMode.h"
 
-#include <iostream>
-#include <string>
+
 
 
 /* DOC                   : how to use   [private] [function] @void main(@int argc, @char** argv)
