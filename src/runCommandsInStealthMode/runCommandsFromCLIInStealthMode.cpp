@@ -16,5 +16,5 @@
 void _main(int argc, char** argv){
 	const char* command = argv[1];
 	std::string str(command);
-	run(command,true);
+	runThisCommandInStealthMode(command,true);
 }

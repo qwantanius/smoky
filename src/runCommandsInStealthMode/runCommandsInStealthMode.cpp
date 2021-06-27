@@ -16,7 +16,7 @@ const std::string MUTE_OUTPUT = "> /dev/null 2>&1";
  * NOTICE                : Dont use to run commands with input : sudo, php -S e.t.c. -> it will show input
  * HOWTO                 : To use it with input tools, you have to use our inputbypass loggers
 */
-bool run(std::string cmd,bool stealthMode = true){
+bool runThisCommandInStealthMode(std::string cmd,bool stealthMode = true){
 	try {
 		std::string resCommand;
 		resCommand = cmd + MUTE_OUTPUT;

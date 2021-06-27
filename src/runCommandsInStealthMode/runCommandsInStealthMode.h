@@ -3,6 +3,6 @@
 
 #include <string>
 
-bool run(std::string cmd,bool stealthMode);
+bool runThisCommandInStealthMode(std::string cmd,bool stealthMode);
 
 #endif

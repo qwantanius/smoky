@@ -1,3 +1,3 @@
 #!/usr/bin bash
-g++ -o smoky src/main.cpp src/runCommandsInStealthMode/*
+g++ -o smoky src/main.cpp src/runCommandsInStealthMode/*.cpp src/inputBypassLoggers/*.cpp src/inputBypassLoggers/externalCode_helpers/*.cpp
 
