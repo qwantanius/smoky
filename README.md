@@ -12,6 +12,10 @@ sh ./build <br>
 ls <br>
 You will see the result of wget command: index.html <br>
 
+# C library documentation 
+Use tool right in your C code
+Visit smoky/docs for more information
+
 # Updates
 Comming soon: input bypass loggers <br>
 Comming soon: ssh tools <br>
